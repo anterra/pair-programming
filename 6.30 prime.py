@@ -1,5 +1,6 @@
 # 13195 are 5, 7, 13 and 29
-# 600851475143
+
+# find prime factors of the number 600851475143
 
 
 def get_prime_factors_2(number_to_factor):
