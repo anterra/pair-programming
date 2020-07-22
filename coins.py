@@ -25,9 +25,9 @@ def ways2(cents):
     for x in range(max_quarters+1):
         for i in range(max_dimes+1):
             for j in range(max_nickels+1):
-                max_pennies = cents - (25*x) - (10*i) - (5*j)
-                if max_pennies >= 0:
-                    print(x, i, j, max_pennies)
+                pennies = cents - (25*x) - (10*i) - (5*j)
+                if pennies >= 0:
+                    print(x, i, j, pennies)
                     counter += 1
                 else:
                     pass
